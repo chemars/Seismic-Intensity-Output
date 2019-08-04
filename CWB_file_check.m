@@ -1,6 +1,6 @@
 clear all; close all; fclose all; clc;
 file_list = dir("*.*.txt");
-for ii=1:size(file_list,1)
+for ii = 1:size(file_list,1)
   ii
   filename = file_list(ii).name;
   fileID = fopen(filename);

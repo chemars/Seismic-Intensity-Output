@@ -5,7 +5,7 @@ ns_column = 3;
 ew_column = 4;
 ud_column = 2;
 file_list = dir("*.*.txt");
-for ii=1:size(file_list,1)
+for ii = 1:size(file_list,1)
   ii
   filename = file_list(ii).name;
   fileID = fopen(filename);
