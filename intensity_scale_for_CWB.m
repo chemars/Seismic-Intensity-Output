@@ -23,6 +23,6 @@ for ii=1:size(file_list,1)
   CWB_scale = scale("cwb2020",I_cwb2020);
 
   fid = fopen("intensity.txt","a+");
-  fprintf(fid,"%s,%1.0f,%1.1f,%s,%1.1f,%s,%1.0f\n",station_code,I_cwb2000,I_cwb2020,CWB_scale,I_jma,JMA_scale,I_fjea);
+  fprintf(fid,"%s,%.0f,%.1f,%s,%.1f,%s,%.0f\n",station_code,I_cwb2000,I_cwb2020,CWB_scale,I_jma,JMA_scale,I_fjea);
   fclose(fid);
 endfor
