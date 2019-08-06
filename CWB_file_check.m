@@ -15,7 +15,7 @@ for ii = 1:size(file_list,1)
   unit = char(row6{2})
   fclose(fileID);
 
-  if strcmp(unit, "gal.") == 0
+  if strcmp(unit,"gal.") == 0
     disp("Unit Error.")
     break;
   endif
