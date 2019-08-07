@@ -11,9 +11,9 @@ for ii = 1:size(file_list,1)
   fileID = fopen(filename,"r");
   row1 = textscan(fileID,"%s %s",1);
   row5 = textscan(fileID,"%s %f",1,"HeaderLines",3);
-  station_code = char(row1{2})
-  sample_rate = row5{2}
-  fclose(fileID);  
+  station_code = char(row1{2});
+  sample_rate = row5{2};
+  fclose(fileID);
   disp("")
   if strcmp(char(row5{1}),"#SampleRate(Hz):") == 0
     disp("Sample Rate Error.")
