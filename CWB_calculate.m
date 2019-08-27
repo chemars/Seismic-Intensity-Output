@@ -1,10 +1,17 @@
 clear all; close all; fclose all; clc;
+output = "intensity.csv";
 delimiter = "";
 ignore_row = 11;
 ns_column = 3;
 ew_column = 4;
 ud_column = 2;
 file_list = dir("*.*.txt");
+
+fid = fopen(output,"a");
+header = "Station code,I_CWB(2000),I_CWB(2020),CWB scale,I_JMA,JMA scale,I_FJEA";
+fprintf(fid,"%s\n",header);
+fclose(fid);
+
 for ii = 1:size(file_list,1)
   disp(ii)
   filename = file_list(ii).name;
@@ -33,7 +40,7 @@ for ii = 1:size(file_list,1)
   JMA_scale = scale("jma",I_jma);
   CWB_scale = scale("cwb2020",I_cwb2020);
 
-  fid = fopen("intensity.txt","a+");
+  fid = fopen(output,"a");
   fprintf(fid,"%s,%.0f,%.1f,%s,%.1f,%s,%.0f\n",station_code,I_cwb2000,I_cwb2020,CWB_scale,I_jma,JMA_scale,I_fjea);
   fclose(fid);
 endfor
