@@ -15,4 +15,4 @@
 * 日本氣象廳 [強震観測データ](https://www.data.jma.go.jp/svd/eqev/data/kyoshin/jishin/index.html)
   - 對應程式：`JMA_check.m`
 
-## 測站資料
+## 程式說明
