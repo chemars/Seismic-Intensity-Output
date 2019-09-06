@@ -3,8 +3,9 @@
 
 ## 準備步驟
 1. 安裝 [GNU Octave](https://www.gnu.org/software/octave/)（計算程式適用於 GNU Octave 5.1.0 Windows-64 版）。
-2. 下載[地震震度計算程式](https://github.com/chemars/Seismic-Intensity-Scales)，將程式加入 GNU Octave 函數路徑（[參考說明](https://octave.org/doc/interpreter/Manipulating-the-Load-Path.html)）。
-3. 下載測站資料（適用的來源詳見地震測站資料一節）
+2. 下載[地震震度計算程式](https://github.com/chemars/Seismic-Intensity-Scales)，將程式加入 GNU Octave 函數路徑（[詳細說明](https://octave.org/doc/interpreter/Manipulating-the-Load-Path.html)）。
+3. 下載所有檔案，並另外下載測站資料，把所有檔案放在同一目錄。
+4. 執行對應的檔案即可計算。
 
 ## 地震測站資料
 * 中央氣象局地震測報中心 [個案地震報導](https://scweb.cwb.gov.tw/zh-tw/page/disaster/3)
