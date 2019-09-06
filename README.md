@@ -1,10 +1,10 @@
 # 測站震度計算
-以[地震震度計算程式](https://github.com/chemars/Seismic-Intensity-Scales)為基礎，批次計算一地震各測站的不同震度。
+以[地震震度計算程式](https://github.com/chemars/Seismic-Intensity-Scales)為基礎，批次計算各地震測站的不同震度。
 
 ## 準備步驟
-1. 安裝 [GNU Octave](https://www.gnu.org/software/octave/)。（計算程式適用於 GNU Octave 5.1.0 Windows-64 版）
-2. 下載所有檔案，並另外下載觀測資料，資料需包括三軸加速度訊號（單位為 gal）及取樣率（單位為 Hz），把所有檔案放在同一目錄。
-3. 開啟 GNU Octave，切換到檔案所在的目錄。
+1. 安裝 [GNU Octave](https://www.gnu.org/software/octave/)（計算程式適用於 GNU Octave 5.1.0 Windows-64 版）。
+2. 下載[地震震度計算程式](https://github.com/chemars/Seismic-Intensity-Scales)，將程式加入 GNU Octave 函數路徑（[參考說明](https://octave.org/doc/interpreter/Manipulating-the-Load-Path.html)）。
+3. 下載測站資料（適用的來源詳見地震測站資料一節）
 
 ## 地震測站資料
 * 中央氣象局地震測報中心 [個案地震報導](https://scweb.cwb.gov.tw/zh-tw/page/disaster/3)
