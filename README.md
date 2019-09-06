@@ -5,10 +5,10 @@
 1. 安裝 [GNU Octave](https://www.gnu.org/software/octave/)（計算程式適用於 GNU Octave 5.1.0 Windows-64 版）。
 2. 下載[地震震度計算程式](https://github.com/chemars/Seismic-Intensity-Scales)，將程式加入 GNU Octave 函數路徑（[詳細說明](https://octave.org/doc/interpreter/Manipulating-the-Load-Path.html)）。
 3. 下載所有檔案，並另外下載測站資料，把所有檔案放在同一目錄。
-4. 執行對應的檔案即可計算。
+4. 執行對應的檔案即可檢查資料與計算震度。
 
 ## 地震測站資料
-* 中央氣象局地震測報中心 [個案地震報導](https://scweb.cwb.gov.tw/zh-tw/page/disaster/3)
-* 日本氣象廳 [強震観測データ](https://www.data.jma.go.jp/svd/eqev/data/kyoshin/jishin/index.html)
-* 民生公共物聯網-資料服務平台 [感測資料-中央氣象局地震監測站](https://ci.taiwan.gov.tw/dsp/environmental_eq_cwb.aspx)
-* 民生公共物聯網-資料服務平台 [感測資料-國家地震工程研究中心地震監測站](https://ci.taiwan.gov.tw/dsp/environmental_eq_ncree.aspx)
+
+* `CWB_check.m`、`CWB_calculate.m`對應的資料為中央氣象局地震測報中心的[個案地震報導](https://scweb.cwb.gov.tw/zh-tw/page/disaster/3)
+* `CIT_check.m`、`CIT_calculate.m`對應的資料為民生公共物聯網-資料服務平台[感測資料-中央氣象局地震監測站](https://ci.taiwan.gov.tw/dsp/environmental_eq_cwb.aspx)與[感測資料-國家地震工程研究中心地震監測站](https://ci.taiwan.gov.tw/dsp/environmental_eq_ncree.aspx)
+* `JMA_check.m`對應的資料為日本氣象廳的[強震観測データ](https://www.data.jma.go.jp/svd/eqev/data/kyoshin/jishin/index.html)
