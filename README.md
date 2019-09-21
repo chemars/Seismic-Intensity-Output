@@ -19,4 +19,4 @@
 待地震震度計算程式完成後加上
 
 ## 授權條款
-本倉庫採用 [MIT 授權條款](https://github.com/chemars/Seismic-Intensity-Scales/blob/master/LICENSE)。
+本倉庫採用 [MIT 授權條款](https://github.com/chemars/Seismic-Intensity-Output/blob/master/LICENSE)。
