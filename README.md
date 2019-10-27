@@ -1,5 +1,5 @@
 # 測站震度輸出
-以[地震震度計算程式](https://github.com/chemars/Seismic-Intensity-Scales)為基礎，批次計算各地震測站的不同震度並輸出到檔案。
+以[地震震度計算程式](https://github.com/chemars/Seismic-Intensity-Scales)為基礎，計算各地震測站的震度並輸出到檔案。
 
 ## 準備步驟
 1. 安裝 [GNU Octave](https://www.gnu.org/software/octave/)（計算程式適用於 5.1.0 Windows-64 版）。
