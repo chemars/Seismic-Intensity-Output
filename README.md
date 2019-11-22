@@ -16,7 +16,8 @@
   - 對應程式：`JMA_check.m`
 
 ## 程式說明
-待地震震度計算程式完成後加上
+待地震震度計算程式完成後加上。
 
 ## 授權條款
-本倉庫採用 [MIT 授權條款](https://github.com/chemars/Seismic-Intensity-Output/blob/master/LICENSE)。
+本倉庫採用 [MIT 授權條款](https://github.com/chemars/Seismic-Intensity-Output/blob/master/LICENSE)。  
+[地震震度計算程式](https://github.com/chemars/Seismic-Intensity-Scales)採用 [MIT 授權條款](https://github.com/chemars/Seismic-Intensity-Scales/blob/master/LICENSE)。
