@@ -12,11 +12,9 @@
   - 對應程式：`CWB_check.m`、`CWB_calculate.m`
 * 民生公共物聯網-資料服務平台 [感測資料-中央氣象局地震監測站](https://ci.taiwan.gov.tw/dsp/environmental_eq_cwb.aspx)、[感測資料-國家地震工程研究中心地震監測站](https://ci.taiwan.gov.tw/dsp/environmental_eq_ncree.aspx)
   - 對應程式：`CIT_check.m`、`CIT_calculate.m`
-* 日本氣象廳 [強震観測データ](https://www.data.jma.go.jp/svd/eqev/data/kyoshin/jishin/index.html)
-  - 對應程式：`JMA_check.m`
 
 ## 程式說明
 待地震震度計算程式完成後加上。
 
 ## 授權條款
-[MIT 授權條款](https://github.com/chemars/Seismic-Intensity-Output/blob/master/LICENSE)    
+[MIT 授權條款](https://github.com/chemars/Seismic-Intensity-Output/blob/master/LICENSE)
