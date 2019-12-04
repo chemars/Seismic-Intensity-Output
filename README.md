@@ -14,7 +14,7 @@
   - 對應程式：`CIT_check.m`、`CIT_calculate.m`
 
 ## 程式說明
-待地震震度計算程式完成後加上。
+程式尚待修改，說明將於地震震度計算程式完成後加上。
 
 ## 授權條款
 [MIT 授權條款](https://github.com/chemars/Seismic-Intensity-Output/blob/master/LICENSE)
