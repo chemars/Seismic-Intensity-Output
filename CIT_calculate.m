@@ -11,7 +11,7 @@ if size(file_list,1) == 0
 endif
 
 fid = fopen(output,"a");
-header = "Station code,Station name,Station longitude,Station latitude,I_CWB(2000),I_CWB(2020),CWB scale,I_JMA,JMA scale,I_FJEA";
+header = "Station code,Station name,Station longitude,Station latitude,I_CWB(2000),CWB scale,I_JMA,JMA scale,I_FJEA";
 fprintf(fid,"%s\n",header);
 fclose(fid);
 
@@ -38,13 +38,12 @@ for ii = 1:size(file_list,1)
   disp("")
   
   I_cwb2000 = cwb2000(filename,delimiter,ignore_row,ns_column,ew_column,ud_column);
-  I_cwb2020 = cwb2020(filename,delimiter,ignore_row,ns_column,ew_column,ud_column,sample_rate);
+  CWB_scale = cwb2020(filename,delimiter,ignore_row,ns_column,ew_column,ud_column,sample_rate);
   I_jma = jma(filename,delimiter,ignore_row,ns_column,ew_column,ud_column,sample_rate);
+  JMA_scale = intensity_scale("jma",I_jma);
   I_fjea = fjea(filename,delimiter,ignore_row,ns_column,ew_column,ud_column,sample_rate);
-  JMA_scale = scale("jma",I_jma);
-  CWB_scale = scale("cwb2020",I_cwb2020);
 
   fid = fopen(output,"a");
-  fprintf(fid,"%s,%s,%.4f,%.4f,%.0f,%.1f,%s,%.1f,%s,%.0f\n",station_code,station_name,station_lon,station_lat,I_cwb2000,I_cwb2020,CWB_scale,I_jma,JMA_scale,I_fjea);
+  fprintf(fid,"%s,%s,%.4f,%.4f,%.0f,%s,%.1f,%s,%.0f\n",station_code,station_name,station_lon,station_lat,I_cwb2000,CWB_scale,I_jma,JMA_scale,I_fjea);
   fclose(fid);
 endfor
