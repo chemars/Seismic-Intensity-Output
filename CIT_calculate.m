@@ -35,8 +35,8 @@ for ii = 1:size(file_list,1)
   station_lat = row12{2};
   sample_rate = row16{2}
   fclose(fileID);
-  disp("")
   
+  disp("")
   I_cwb2000 = cwb2000(filename,delimiter,ignore_row,ns_column,ew_column,ud_column);
   CWB_scale = cwb2020(filename,delimiter,ignore_row,ns_column,ew_column,ud_column,sample_rate);
   I_jma = jma(filename,delimiter,ignore_row,ns_column,ew_column,ud_column,sample_rate);
