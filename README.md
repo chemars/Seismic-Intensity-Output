@@ -5,7 +5,7 @@
 1. 安裝 [GNU Octave](https://www.gnu.org/software/octave/)（計算程式適用於 5.1.0 Windows-64 版）。
 2. 下載[地震震度計算程式](https://github.com/chemars/Seismic-Intensity-Scales)，將程式加入 GNU Octave 的函數路徑（[詳細說明](https://octave.org/doc/interpreter/Manipulating-the-Load-Path.html)）。
 3. 下載所有檔案，並另外下載地震測站觀測資料，把所有檔案放在同一目錄。
-4. 執行對應的程式即可檢查資料或輸出震度。
+4. 執行對應的程式即可輸出震度。
 
 ## 測站資料
 * 中央氣象局地震測報中心 [個案地震報導](https://scweb.cwb.gov.tw/zh-tw/page/disaster/3)
@@ -14,7 +14,7 @@
   - 對應程式：`CIT_check.m`、`CIT_calculate.m`
 
 ## 程式說明
-程式尚待修改，說明將於地震震度計算程式完成後加上。
+`*_check.m`是檢查檔案格式是否正確，`*_calculate.m`是計算與輸出震度，並附有測站資料。
 
 ## 授權條款
 [MIT 授權條款](https://github.com/chemars/Seismic-Intensity-Output/blob/master/LICENSE)
