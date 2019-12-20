@@ -23,17 +23,17 @@ for ii = 1:size(file_list,1)
   
   disp("")
   if strncmp(char(row16{1}),"#SampleRate(Hz)",15) == 0
-    disp("Sample Rate Error.")
+    disp("Sample Rate Error")
     disp(file_list(ii).name)
     break;
   endif
   if isnumeric(sample_rate) == 0
-    disp("Sample Rate Number Error.")
+    disp("Sample Rate Number Error")
     disp(file_list(ii).name)
     break;
   endif
   if strncmp(char(row17{2}),"gal.",4) == 0
-    disp("Unit Error.")
+    disp("Unit Error")
     disp(file_list(ii).name)
     break;
   endif
