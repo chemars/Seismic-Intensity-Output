@@ -14,7 +14,7 @@
   - 對應程式：`CIT_check.m`、`CIT_calculate.m`
 
 ## 程式說明
-`*_check.m`是檢查檔案格式是否正確，`*_calculate.m`是計算與輸出震度，並附有測站資料。
+`*_check.m`是檢查檔案格式是否正確，`*_calculate.m`是計算與輸出震度，並附加測站資訊。
 
 ## 授權條款
 [MIT 授權條款](https://github.com/chemars/Seismic-Intensity-Output/blob/master/LICENSE)
