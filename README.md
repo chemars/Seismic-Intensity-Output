@@ -13,7 +13,7 @@
 * 民生公共物聯網-資料服務平台 [感測資料-中央氣象局地震監測站](https://ci.taiwan.gov.tw/dsp/environmental_eq_cwb.aspx)、[感測資料-國家地震工程研究中心地震監測站](https://ci.taiwan.gov.tw/dsp/environmental_eq_ncree.aspx)
   - 對應程式：`CIT_check.m`、`CIT_calculate.m`
 
-## 程式說明
+## 說明
 `*_check.m`是檢查檔案格式是否正確，`*_calculate.m`是計算與輸出震度，並附加測站資訊。
 
 ## 授權條款
