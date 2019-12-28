@@ -7,7 +7,7 @@ ew_column = 4;
 ud_column = 2;
 file_list = dir("*.*.txt");
 
-fid = fopen(output,"a");
+fid = fopen(output,"w");
 header = "Station code,I_CWB(2000),CWB scale,I_JMA,JMA scale,I_FJEA";
 fprintf(fid,"%s\n",header);
 fclose(fid);

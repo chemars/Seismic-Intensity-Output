@@ -10,7 +10,7 @@ if size(file_list,1) == 0
   file_list = dir("*.txt");
 endif
 
-fid = fopen(output,"a");
+fid = fopen(output,"w");
 header = "Station code,Station name,Station longitude,Station latitude,I_CWB(2000),CWB scale,I_JMA,JMA scale,I_FJEA";
 fprintf(fid,"%s\n",header);
 fclose(fid);
