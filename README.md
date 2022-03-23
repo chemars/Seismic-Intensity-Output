@@ -10,7 +10,7 @@
 ## 測站資料
 * 中央氣象局地震測報中心 [個案地震報導](https://scweb.cwb.gov.tw/zh-tw/page/disaster/3)
   - 對應程式：`CWB_check.m`、`CWB_calculate.m`
-* 民生公共物聯網-資料服務平台 [感測資料-中央氣象局地震監測站](https://ci.taiwan.gov.tw/dsp/environmental_eq_cwb.aspx)、[感測資料-國家地震工程研究中心地震監測站](https://ci.taiwan.gov.tw/dsp/environmental_eq_ncree.aspx)
+* 民生公共物聯網-資料服務平台 [感測資料-中央氣象局地震監測站](https://ci.taiwan.gov.tw/dsp/dataset_eq_cwb.aspx)、[感測資料-國家地震工程研究中心地震監測站](https://ci.taiwan.gov.tw/dsp/dataset_eq_ncree.aspx) （[歷史資料](https://history.colife.org.tw/#/)）
   - 對應程式：`CIT_check.m`、`CIT_calculate.m`
 
 ## 說明
