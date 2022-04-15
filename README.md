@@ -2,7 +2,7 @@
 以[地震震度計算程式](https://github.com/chemars/Seismic-Intensity-Scales)為基礎，計算各地震測站的震度並輸出到檔案。
 
 ## 準備步驟
-1. 安裝 [GNU Octave](https://www.gnu.org/software/octave/)（計算程式適用於 5.1.0 Windows-64 版）。
+1. 安裝 [GNU Octave](https://www.gnu.org/software/octave/)（計算程式適用於 Windows-64 版）。
 2. 下載[地震震度計算程式](https://github.com/chemars/Seismic-Intensity-Scales)，將程式加入 GNU Octave 的函數路徑（[相關說明](https://octave.org/doc/interpreter/Manipulating-the-Load-Path.html)）。
 3. 下載所有檔案，並另外下載地震測站觀測資料，把所有檔案放在同一目錄。
 4. 執行對應的程式即可輸出震度。
