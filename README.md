@@ -8,15 +8,15 @@
 4. 執行對應的程式即可輸出震度。
 
 ## 測站資料
-* 中央氣象局地震測報中心 [個案地震報導](https://scweb.cwa.gov.tw/zh-tw/page/disaster/3)
-  - 對應程式：`CWB_check.m`、`CWB_calculate.m`
-* 民生公共物聯網-資料服務平台 [中央氣象局地震監測站](https://ci.taiwan.gov.tw/dsp/Views/dataset/detail.aspx?id=earthquake_1)、[國家地震工程研究中心地震監測站](https://ci.taiwan.gov.tw/dsp/Views/dataset/detail.aspx?id=earthquake_6) （[歷史資料](https://history.colife.org.tw/#/)）
+* 中央氣象署地震測報中心 [個案地震報導](https://scweb.cwa.gov.tw/zh-tw/page/disaster/3)
+  - 對應程式：`CWA_check.m`、`CWA_calculate.m`
+* 民生公共物聯網-資料服務平台 [中央氣象署地震監測站](https://ci.taiwan.gov.tw/dsp/Views/dataset/detail.aspx?id=earthquake_1)、[國家地震工程研究中心地震監測站](https://ci.taiwan.gov.tw/dsp/Views/dataset/detail.aspx?id=earthquake_6) （[歷史資料](https://history.colife.org.tw/#/)）
   - 對應程式：`CIT_check.m`、`CIT_calculate.m`
 
 ## 說明
 `*_check.m`是檢查檔案格式是否正確，`*_calculate.m`是計算與輸出震度並附加測站資訊，輸出檔案名稱為`intensity.csv`，檔案格式如下
-* CWB：`測站代碼,中央氣象局地震震度（2000年版本）,中央氣象局地震震度,日本氣象廳計測震度,日本氣象廳震度階級,福建省地震局地震儀器烈度`
-* CIT：`測站代碼,測站名稱,測站經度,測站緯度,中央氣象局地震震度（2000年版本）,中央氣象局地震震度,日本氣象廳計測震度,日本氣象廳震度階級,福建省地震局地震儀器烈度`
+* CWA：`測站代碼,中央氣象署地震震度（2000年版本）,中央氣象署地震震度,日本氣象廳計測震度,日本氣象廳震度階級,福建省地震局地震儀器烈度`
+* CIT：`測站代碼,測站名稱,測站經度,測站緯度,中央氣象署地震震度（2000年版本）,中央氣象局地震震度,日本氣象廳計測震度,日本氣象廳震度階級,福建省地震局地震儀器烈度`
 
 ## 授權條款
 [MIT 授權條款](https://github.com/chemars/Seismic-Intensity-Output/blob/master/LICENSE)
